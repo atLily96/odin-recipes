@@ -2,21 +2,45 @@ img{
     height: auto;
     display: block;
 }
+
 p, 
 li, 
 h2, 
 h1, 
 img, 
 ul, 
-ol{
+ol, 
+div{
     width: 60%;
     text-align: center;
     margin: auto;
 }
+
 p, 
 h1, 
 h2{
     padding: 15px;
 }
 
+.preview{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
 
+.preview p{
+    font-size: large;
+    font-weight: bold;
+}
+
+body{
+    background-image: url("../images/background.png");
+    background-color: #d9f1ff;
+}
+
+.links{
+    align-content: center;
+}
