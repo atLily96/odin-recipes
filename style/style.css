@@ -1,3 +1,22 @@
-*{
-    color: purple;
+img{
+    height: auto;
+    display: block;
 }
+p, 
+li, 
+h2, 
+h1, 
+img, 
+ul, 
+ol{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+p, 
+h1, 
+h2{
+    padding: 15px;
+}
+
+
